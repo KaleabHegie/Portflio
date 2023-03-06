@@ -1,0 +1,364 @@
+
+.mainnav{
+    background-color: #3f434c;
+    
+}
+.mainnav div a img{
+    border-radius: 50%;
+    margin-left: 50px;
+}
+#Navbar{
+  background-color: #3f434c;
+  color:#fc9537;
+}
+#Navbar ul li a{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+ 
+}
+#Navbar ul li a:hover{
+   background-color: #5d5f64;
+}
+.home{
+    background-color: #20242f;
+    padding-bottom: 100px;
+}
+.home .row{
+    padding-top: 100px;
+    color: white;
+}
+ span{
+    color:#fc9537;
+}
+.picture img{
+    max-width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.about{
+    padding-top: 100px;
+    background-color: whitesmoke;
+    color: #20242f;
+}
+.dis{
+    margin-top: 30px;
+    font-size: 18px;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box .percent{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.box .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.box .percent svg circle{
+    fill: none;
+    width: 150px;
+    height: 150px;
+    stroke-width: 10;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+.box .txt{
+    color: #050d18;
+    font-size: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+.box .percent .number h2{
+    font-size:25px;
+}
+.box .first circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke:#5d5f64;
+}
+.box .first circle:nth-child(2){
+    stroke-dashoffset: calc( 440 - ( 440 * 50 ) / 100);
+    stroke:#fc9537;
+}
+.box .second circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke:#5d5f64;
+}
+.box .second circle:nth-child(2){
+    stroke-dashoffset: calc( 440 - ( 440 * 60 ) / 100);
+    stroke:#fc9537;
+}
+.box .third circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke:#5d5f64;
+}
+.box .third circle:nth-child(2){
+    stroke-dashoffset: calc( 440 - ( 440 * 60 ) / 100);
+    stroke:#fc9537;
+}
+.box .forth circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke:#5d5f64;
+}
+.box .forth circle:nth-child(2){
+    stroke-dashoffset: calc( 440 - ( 440 * 65 ) / 100);
+    stroke:#fc9537;
+}
+.box .percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:#050d18;
+}
+.Education{
+    background-color: #20242f;
+    text-align: center;
+    padding-top: 100px;
+}
+.vr{
+    border-left: 2px solid #fc9537;
+    margin-left: 10px;
+}
+
+
+
+.skills{
+    display: block;
+    margin-bottom: 100px;
+}
+.skills h4{
+    font-size: 30px;
+    color: #212431;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+}
+.skills h6{
+    font-size: 20px;
+    color: #212431;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+.personal{
+    width: 50%;    
+    padding-left: 0px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+.Proffesional{
+    width: 50%;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+ .personal h3{
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 25px;
+ }
+ .Proffesional h3{
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 25px;
+ }
+ .personal h5{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    color: black;
+    font-size: 32px;
+ }
+ .Proffesional h5{
+    margin-top: 10px;
+    margin-bottom: 10px;  
+    color: black;
+    font-size: 32px;
+ }
+ .progress_bar{
+    width: 450px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: rgb(146, 146, 146);
+ }
+ .progress_bar .s1{
+    height: 15px;
+    border-radius: 5px;
+    width: 30%;
+    background-color: #212431;
+ }
+ .progress_bar .s2{
+    height: 15px;
+    border-radius: 5px;
+    width: 70%;
+    background-color: #212431;
+ }
+ .progress_bar .s3{
+    height: 15px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: #212431;
+ }
+ .progress_bar .s4{
+    height: 15px;
+    border-radius: 5px;
+    width: 60%;
+    background-color: #212431;
+ }
+ .progress_bar .s5{
+    height: 15px;
+    border-radius: 5px;
+    width: 60%;
+    background-color: #212431
+ }
+ .progress_bar .s6{
+    height: 15px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: #212431;
+ }
+ .progress_bar .s7{
+    height: 15px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: #212431;
+ }
+ .progress_bar .s8{
+    height: 15px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #212431
+ }
+ .progress_bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(215, 210, 150);
+    float: right;
+    margin-top: -15px;
+    margin-right: 0px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: 1px lightgrey solid;
+ } 
+ .contact {
+    background-color: #050d18;
+  }
+  .contact .container h4{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+  }
+  .contact .container p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+
+  }
+  .contact .info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(250, 0, 0, 0.12);
+  }
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #050d18;
+  }
+   .contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+  }
+  .contact .info .email p {
+    padding-top: 5px;
+  }
+  .contact .info .social-links {
+    padding-left: 60px;
+  }
+  .contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+  }
+   .contact .emailform {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact .emailform button{
+    background: #149ddd;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  .contact .emailform button:hover {
+    background: #37b3ed;
+  }
+  footer{
+    background-color: #050d18;
+  }
+  footer .container{
+    padding: 30px;
+  }
+  footer .container h5{
+    text-align: center;
+    color: #b6b2af;
+  } 
+  footer .container h2{
+    color: #fc9537;
+  } 
+  .footer div ul {
+   list-style: none;
+   display:flex;
+  }
+  footer img{
+    width: 80px;
+    padding: 20px;
+  }
+
+

@@ -205,41 +205,49 @@
  }
  .progress_bar .s1{
     height: 15px;
+    border-radius: 5px;
     width: 30%;
     background-color: #212431;
  }
  .progress_bar .s2{
     height: 15px;
+    border-radius: 5px;
     width: 70%;
     background-color: #212431;
  }
  .progress_bar .s3{
     height: 15px;
+    border-radius: 5px;
     width: 90%;
     background-color: #212431;
  }
  .progress_bar .s4{
     height: 15px;
+    border-radius: 5px;
     width: 60%;
     background-color: #212431;
  }
  .progress_bar .s5{
     height: 15px;
+    border-radius: 5px;
     width: 60%;
     background-color: #212431
  }
  .progress_bar .s6{
     height: 15px;
+    border-radius: 5px;
     width: 90%;
     background-color: #212431;
  }
  .progress_bar .s7{
     height: 15px;
+    border-radius: 5px;
     width: 90%;
     background-color: #212431;
  }
  .progress_bar .s8{
     height: 15px;
+    border-radius: 5px;
     width: 100%;
     background-color: #212431
  }
